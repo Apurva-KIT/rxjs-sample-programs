@@ -1,0 +1,13 @@
+.container [class^="col"]>*{
+    background-color: #e0e8fe;
+    border: 1px solid #aac0e2;
+
+    margin-block: 1em;
+    padding: 4em;
+
+    &:hover{
+        cursor: pointer;
+        background: #dee2e4;
+        border: 1px solid #8a8f91;
+    }
+}
